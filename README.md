@@ -27,9 +27,11 @@ pip install -r requirements.txt
 
 ### 3. Create a `.env` file with your API keys
 ```env
-OPENAI_API_KEY=your_openai_key_here
+AIML_API_KEY=your_aiml_key_here
 ELEVENLABS_API_KEY=your_elevenlabs_key_here
-ANTHROPIC_API_KEY=your_anthropic_key_here
+SERPER_API_KEY=your_serper_key_here
+BEN_VOICE_ID=your-elevenlabs-ben-voice-id
+CLAUDIA_VOICE_ID=your-elevenlabs-claudia-voice-id
 ```
 
 ---
@@ -57,5 +59,5 @@ Find outputs in the `outputs/` directory:
 - **Pipeline flow:** Extend via `crew.py`
 
 ## Acknowledgments
-1.CrewAI
-2.ElevenLabs
+- **CrewAI**
+- **ElevenLabs**
