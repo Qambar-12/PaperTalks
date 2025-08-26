@@ -1,6 +1,6 @@
 # PaperTalks
 
-AI-powered pipeline that reimagines peer review as engaging podcast conversations, powered by CrewAI and ElevenLabs.
+AI-powered pipeline that reimagines research review as engaging podcast conversations, powered by CrewAI and ElevenLabs.
 
 ## 🚀 Features
 
@@ -41,7 +41,7 @@ CLAUDIA_VOICE_ID=your-elevenlabs-claudia-voice-id
 1. Place your research paper in the `knowledge/` directory (or use the sample paper included).
 2. Run the podcast generator script:
 ```bash
-python peer_review_podcast.py
+python research_review_podcast.py
 ```
 
 Find outputs in the `outputs/` directory:
@@ -55,7 +55,7 @@ Find outputs in the `outputs/` directory:
 ## 🔧 Configuration
 
 - **Voice settings:** Adjust in `tools.py`
-- **Agent behaviors:** Modify in `peer_review_podcast.py`
+- **Agent behaviors:** Modify in `research_review_podcast.py`
 - **Pipeline flow:** Extend via `crew.py`
 
 ## Acknowledgments
